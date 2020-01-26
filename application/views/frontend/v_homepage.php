@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="<?=base_url('assets_frontend')?>/library/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="<?=base_url('assets_frontend')?>/library/animate/animate.min.css">
     <link rel="stylesheet" href="<?=base_url('assets_frontend')?>/library/owlcarousel/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="<?=base_url('assets_frontend')?>/library/font-awesome/css/all.min.css">
     <link rel="stylesheet" href="<?=base_url('assets_frontend')?>/style.css">
 </head>
 <body data-spy="scroll" data-target="#navbar-spy" data-offset="100">
@@ -563,7 +562,7 @@
                     <div class="alamat">
                         <table>
                             <tr>
-                                <td class="icon"> <i class="fas fa-map-marker-alt"></i> </td class="icon">
+                                <td class="icon"> <img src="<?=base_url('assets_frontend')?>/icon/Icon awesome-map-marker-alt.svg" alt="Cahya web | Jasa Pembuatan Website Professional"> </td class="icon">
                                 <td><p>Jl. Langko 70 Dasan Agung Mataram</p></td>
                             </tr>
                             <tr>
@@ -581,7 +580,7 @@
                         </table>
                     </div>
                 </div>
-                <div class="col-lg-6 mt-sm-4 mt-md-0">
+                <div class="col-lg-6 mt-4 mt-md-0">
                     <h4>Lokasi</h4>
                     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15780.672974134988!2d116.095374!3d-8.579817!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x20eb060e5100fe5e!2sCahya%20Lombok%20Travel!5e0!3m2!1sid!2sid!4v1579953067486!5m2!1sid!2sid" style="width:100%" height="200" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
                 </div>
