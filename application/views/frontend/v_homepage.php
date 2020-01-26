@@ -530,15 +530,23 @@
                             <h4 class="text-center">Kontak</h4>
                         </div>
                         <div>
-                            <form class="form-group mt-3" action="">
+                            <form class="form-group mt-3" action="" method="POST">
                                 <label for="">Nama</label>
-                                <input class="form-control" type="text">
+                                <input class="form-control" name="nama" type="text">
+                                <?= form_error('nama', '<p class="ml-3" style="color: darkred; margin-bottom: 0;">', '</p>') ?>
+
                                 <label for="">Email</label>
-                                <input class="form-control" type="text">
+                                <input class="form-control" name="email" type="email">
+                                <?= form_error('email', '<p class="ml-3" style="color: darkred; margin-bottom: 0;">', '</p>') ?>
+
                                 <label for="">Telepon</label>
-                                <input class="form-control" type="text">
+                                <input class="form-control" name="telepon" type="text">
+                                <?= form_error('telepon', '<p class="ml-3" style="color: darkred; margin-bottom: 0;">', '</p>') ?>
+
                                 <label for="">Pesan</label>
-                                <input class="form-control" type="text">
+                                <input class="form-control" name="pesan" type="text">
+                                <?= form_error('pesan', '<p class="ml-3" style="color: darkred; margin-bottom: 0;">', '</p>') ?>
+
                                 <div class="text-center">
                                     <button type="submit" class="btn btn-primary mt-4" style="width: 200px">Kirim</button>
                                 </div>
