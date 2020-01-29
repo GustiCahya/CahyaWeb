@@ -17,7 +17,9 @@ class Welcome extends CI_Controller {
 		$this->form_validation->set_rules('pesan', 'Pesan', 'required|trim');
 		
 		if($this->form_validation->run() == false){
+			$this->load->view('frontend/v_header');
 			$this->load->view('frontend/v_homepage');
+			$this->load->view('frontend/v_footer');
 		}else{
 			$nama = $this->input->post('nama');
 			$email = $this->input->post('email');

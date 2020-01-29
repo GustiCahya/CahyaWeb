@@ -6,7 +6,7 @@ body {
   font-family: 'Open sans', sans-serif;
 }
 
-.navbar {  
+.navbar {
   padding: 0px 90px;
   font-weight: 600;
   -webkit-transition: .2s ease-out;
@@ -140,7 +140,7 @@ section {
           transform: translate(-50%, -50%);
 }
 
-.website-pribadi {
+.website-service {
   background-color: #F9F9F9;
 }
 
