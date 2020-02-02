@@ -215,6 +215,57 @@ section {
   margin-bottom: 0;
 }
 
+.plan {
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+
+.plan h1 {
+  margin-bottom: 100px;
+}
+
+.plan a {
+  text-decoration: none;
+}
+
+.plan .card .card-body {
+  position: relative;
+}
+
+.plan .card .card-body h4 {
+  position: absolute;
+  bottom: 7px;
+  left: 14px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-shadow: 1px 2px 10px rgba(0, 0, 0, 0.8);
+}
+
+.plan .card:hover .card-footer {
+  background-color: #dd3a3a;
+}
+
+.plan .card .card-footer {
+  background-color: #ff4141;
+  text-align: center;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.plan .card .card-footer small {
+  letter-spacing: 1px;
+  font-weight: 700;
+  font-size: 17px;
+  color: white;
+  text-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 1000px) {
+  .plan .card {
+    margin-bottom: 30px;
+  }
+}
+
 .footer {
   background-color: #0a0a0a;
 }

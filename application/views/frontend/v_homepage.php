@@ -53,8 +53,8 @@
                     <div class="feature-logo mx-auto my-3 icon-feature">
                         <img src="<?=base_url('assets_frontend')?>/image/feature-computer.svg" alt="Cahya web | Jasa Pembuatan Website Professional">
                     </div>
-                    <h1 class="mb-3">Performance</h1>
-                    <p class="mb-2">Kami pastikan website anda akan memiliki performa yang tinggi sehingga meningkatkan retensi konsumen anda</p>
+                    <h1 class="mb-3">SEO Friendly</h1>
+                    <p class="mb-2">Search Engine Optimization sangat dibutuhkan dalam website anda agar dapat mudah terjangkau oleh mesin pencari seperti Google</p>
                 </div>
                 <div class="col-lg-4">
                     <div class="feature-logo mx-auto my-3 icon-feature">
@@ -64,6 +64,55 @@
                     <p class="mb-2">Bila anda menemui kesulitan anda dapat menghubungi kami, kami selalu siap untuk membantu</p>
                 </div>
             </div>
+            </section>
+
+            <section class="plan" id="service">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12">
+                            <h1 class="pb-3 mx-auto" style="border-bottom: 1px solid; width: fit-content;">Pilih paket yang anda inginkan!</h1>
+                        </div>
+                    </div>
+                    <div class="row justify-content-around mb-2">
+                        <div class="col-lg-4">
+                            <a href="#">
+                                <div class="card">
+                                    <div class="card-body text-white" style="background:url('<?=base_url('assets_frontend')?>/image/paket/pribadi.jpg') no-repeat; background-size: cover; height: 200px;">
+                                        <h4>Website Pribadi
+                                        /Portofolio</h4>
+                                    </div>
+                                    <div class="card-footer">
+                                        <small>DISKON 50% !!!</small>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4">
+                            <a href="">
+                                <div class="card">
+                                    <div class="card-body text-white" style="background:url('<?=base_url('assets_frontend')?>/image/paket/bisnis.jpg') no-repeat; background-size: cover; height: 200px;">
+                                        <h4>Website Bisnis</h4>
+                                    </div>
+                                    <div class="card-footer">
+                                        <small>DISKON 50% !!!</small>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4">
+                            <a href="">
+                                <div class="card">
+                                <div class="card-body text-white" style="background:url('<?=base_url('assets_frontend')?>/image/paket/ecommerce.jpg') no-repeat; background-size: cover; height: 200px;">
+                                    <h4>Website E-Commerce</h4>
+                                </div>
+                                    <div class="card-footer">
+                                        <small>DISKON 50% !!!</small>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </section>
         
     </main>
