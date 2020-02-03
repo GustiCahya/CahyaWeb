@@ -112,17 +112,20 @@
 
         <section class="container-fluid website-pribadi-contoh">
             <div class="row text-center justify-content-center">
-                <h1 class="display-4 title-border mt-5 mb-5" style="font-size: 30px">Contoh Website Pribadi</h1>
+                <h1 class="display-4 title-border mt-5 mb-2" style="font-size: 30px">Contoh Website Pribadi</h1>
+            </div>
+            <div class="row text-center justify-content-center">
+                <p class="mb-4">Klik untuk membuka contoh websitenya</p>
             </div>
             <div class="row justify-content-around contoh-web" style="margin-bottom: 48px">
-                <a href="https://pribadi1.cahyaweb.com">
-                    <div class="col-lg-5 border">
-                        <img src="" alt="Cahya web | Jasa Pembuatan Website Professional">
+                <a class="col-lg-5 border" target="_blank" href="https://pribadi1.cahyaweb.com">
+                    <div>
+                        <img src="<?=base_url('assets_frontend')?>/image/paket/pribadi.jpg" alt="Cahya web | Jasa Pembuatan Website Professional" style="width:100%">
                     </div>
                 </a>
-                <a href="https://pribadi1.cahyaweb.com">
-                    <div class="col-lg-5 border">
-                        <img src="" alt="Cahya web | Jasa Pembuatan Website Professional">
+                <a class="col-lg-5 border" target="_blank" href="https://pribadi2.cahyaweb.com">
+                    <div>
+                        <img src="<?=base_url('assets_frontend')?>/image/paket/bisnis.jpg" alt="Cahya web | Jasa Pembuatan Website Professional" style="width:100%">
                     </div>
                 </a>
             </div>
