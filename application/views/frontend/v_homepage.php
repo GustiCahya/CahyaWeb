@@ -75,7 +75,7 @@
                     </div>
                     <div class="row justify-content-around mb-2">
                         <div class="col-lg-4">
-                            <a href="<?=base_url().'pribadi'?>" target="__blank">
+                            <a href="<?=base_url().'pribadi'?>" target="_blank">
                                 <div class="card">
                                     <div class="card-body text-white" style="background:url('<?=base_url('assets_frontend')?>/image/paket/pribadi.jpg') no-repeat; background-size: cover; height: 200px;">
                                         <h4>Website Pribadi
@@ -88,7 +88,7 @@
                             </a>
                         </div>
                         <div class="col-lg-4">
-                            <a href="<?=base_url().'bisnis'?>" target="__blank">
+                            <a href="<?=base_url().'bisnis'?>" target="_blank">
                                 <div class="card">
                                     <div class="card-body text-white" style="background:url('<?=base_url('assets_frontend')?>/image/paket/bisnis.jpg') no-repeat; background-size: cover; height: 200px;">
                                         <h4>Website Bisnis</h4>
@@ -100,7 +100,7 @@
                             </a>
                         </div>
                         <div class="col-lg-4">
-                            <a href="<?=base_url().'ecommerce'?>" target="__blank">
+                            <a href="<?=base_url().'ecommerce'?>" target="_blank">
                                 <div class="card">
                                 <div class="card-body text-white" style="background:url('<?=base_url('assets_frontend')?>/image/paket/ecommerce.jpg') no-repeat; background-size: cover; height: 200px;">
                                     <h4>Website E-Commerce</h4>
