@@ -116,7 +116,7 @@
                 <h1 class="display-4 title-border mt-5 mb-2" style="font-size: 30px">Contoh Website Bisnis</h1>
             </div>
             <div class="row text-center justify-content-center">
-                <p class="mb-4">Klik untuk membuka contoh websitenya</p>
+                <p class="mb-5">Klik untuk membuka contoh websitenya</p>
             </div>
             <div class="row justify-content-around contoh-web" style="margin-bottom: 48px">
                 <a class="col-lg-5 border" target="_blank" href="https://bisnis1.cahyaweb.com">
