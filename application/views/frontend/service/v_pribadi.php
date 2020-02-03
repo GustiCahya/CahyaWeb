@@ -112,7 +112,7 @@
 
         <section class="container-fluid website-pribadi-contoh">
             <div class="row text-center justify-content-center">
-                <h1 class="display-4 title-border mt-5 mb-2" style="font-size: 30px">Contoh Website Pribadi</h1>
+                <h1 class="display-4 title-border mt-5 mb-2" style="font-size: 30px; font-weight: 500">Contoh Website Pribadi</h1>
             </div>
             <div class="row text-center justify-content-center">
                 <p class="mb-5">Klik untuk membuka contoh websitenya</p>
