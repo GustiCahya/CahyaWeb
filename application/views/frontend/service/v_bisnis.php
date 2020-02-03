@@ -116,10 +116,10 @@
                 <h1 class="display-4 title-border mt-5 mb-5" style="font-size: 30px">Contoh Website Bisnis</h1>
             </div>
             <div class="row justify-content-around contoh-web" style="margin-bottom: 48px">
-                <div class="col-lg-6 border">
+                <div class="col-lg-5 border">
                     <img src="" alt="Cahya web | Jasa Pembuatan Website Professional">
                 </div>
-                <div class="col-lg-6 border">
+                <div class="col-lg-5 border">
                     <img src="" alt="Cahya web | Jasa Pembuatan Website Professional">
                 </div>
             </div>
